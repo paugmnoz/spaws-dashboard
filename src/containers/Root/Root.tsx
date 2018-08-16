@@ -69,6 +69,7 @@ export class Root extends React.Component <Props, State> {
     };
     render(){
         return (
+            
             <section>
                 {this.state.statusScreen === 0 &&  
                 <Register
