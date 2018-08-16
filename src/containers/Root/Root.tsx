@@ -69,7 +69,7 @@ export class Root extends React.Component <Props, State> {
     };
     render(){
         return (
-            
+
             <section>
                 {this.state.statusScreen === 0 &&  
                 <Register
@@ -80,6 +80,7 @@ export class Root extends React.Component <Props, State> {
                 register = {this.register}
                 goToLogin = {this.goToLogin}
                
+                
                  />}
                 {this.state.statusScreen === 1 &&    
                 <Login
