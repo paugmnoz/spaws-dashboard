@@ -1,6 +1,36 @@
-@import url('https://fonts.googleapis.com/css?family=Lato:400,900');
-
-body{
+@import url('https://fonts.googleapis.com/css?family=Dosis:400,600,700');
+* {
     margin: 0;
-    font-family: 'Lato', sans-serif;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    font-family: 'Dosis', sans-serif;
+}
+
+button {
+    margin: 0.5em 0;
+    border: none;
+    border-style: none;
+    border-radius: 25px;
+    padding: 8px 20px;
+    &.dark {
+        background-color: #898df2;
+        color: white;
+        font-family: 'Dosis', sans-serif;
+        font-size: 12pt;
+        font-weight: 600;
+    }
+}
+
+.p-c {
+    text-align: center;
+}
+
+input {
+    padding: 8px 5px;
+    width: 100%;
+    margin-bottom: 1em;
+    display: inline-block;
 }

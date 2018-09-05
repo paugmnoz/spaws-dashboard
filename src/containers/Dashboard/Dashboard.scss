@@ -1,0 +1,39 @@
+body {
+    background-color: rgb(245, 245, 245)
+}
+
+.row-flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+}
+
+.add-order-w {
+    width: 20%;
+}
+
+.all-panels-w {
+    width: 80%;
+}
+
+.col-flex {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+}
+
+.flex-child {
+    order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+}
+
+.panel-w {
+    width: 45%;
+}

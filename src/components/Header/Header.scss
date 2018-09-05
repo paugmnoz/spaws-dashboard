@@ -1,0 +1,32 @@
+.header-user {
+    background-color: white;
+    height: 60px;
+    padding: 0.5em;
+}
+
+.header-nav {
+    background-color: rgb(237, 235, 241);
+    height: 30px;
+    padding: 0.5em 1em;
+}
+
+.header-user,
+.header-nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    h1,
+    p {
+        order: 0;
+        flex: 0 1 auto;
+        align-self: auto;
+    }
+}
+
+.active {
+    color: #898df2;
+    font-weight: 600;
+}

@@ -1,0 +1,25 @@
+.todayPanel {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.row-flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+}
+
+.flex-child {
+    order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+}

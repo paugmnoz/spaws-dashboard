@@ -1,0 +1,42 @@
+body {
+    background-color: #898df2;
+}
+
+.register-form {
+    background-color: white;
+    width: 20%;
+    height: auto;
+    border-radius: 15px;
+    margin: auto;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    p {
+        margin-bottom: 0.5em;
+        order: 0;
+        flex: 0 1 auto;
+        align-self: auto;
+    }
+    img {
+        align-items: center
+    }
+    button {
+        order: 0;
+        flex: 0 1 auto;
+        align-self: auto;
+    }
+}
+
+.shiba-floating {
+    position: absolute;
+    margin: 10% 30%;
+    z-index: 10000;
+}

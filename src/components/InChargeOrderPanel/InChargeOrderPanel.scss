@@ -1,0 +1,19 @@
+.inChargePanel {
+    background-color: white;
+    border-radius: 20px;
+}
+
+.row-report {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+}
+
+.flex-child {
+    order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+}
