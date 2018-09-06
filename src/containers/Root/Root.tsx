@@ -1,19 +1,13 @@
 import * as React from 'react';
 
 import './Root.scss';
+import { BrowserRouter as Router, Route, Link, Redirect, withRouter} from 'react-router-dom';
 
 import  Register  from '../../containers/Register/Register';
 import  Login  from '../../containers/Login/Login';
 
 import Dashboard from '../../containers/Dashboard/Dashboard';
 
-import {
-    BrowserRouter as Router,
-    Route,
-    Link,
-    Redirect,
-    withRouter
-  } from "react-router-dom";
 
 export class Root extends React.Component {
   
@@ -21,8 +15,9 @@ export class Root extends React.Component {
         return (
             <Router>
             <section>
-            <Route exact path="/" component={Login} />
-            <Route path="/register" component={Register} />
+            <Route exact path="/" component={Register} />
+            <Route path="/login" component={Login} />
+            <Route path="/dashboard" component={Dashboard} />
           </section>
           </Router>
         )
