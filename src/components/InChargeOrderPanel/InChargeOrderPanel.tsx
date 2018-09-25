@@ -3,7 +3,7 @@ import { observer } from 'mobx-react';
 import './InChargeOrderPanel.scss'
 
 import { store } from '../../store/Store';
-const InChargeOrderPanel = () => {
+const InChargeOrderPanel = observer(() => {
 
     return (
       <div className="inChargePanel">
@@ -11,15 +11,15 @@ const InChargeOrderPanel = () => {
         <div className="report row-report">
         
         <div className="employee-report">
-            <h2>12</h2>
+            <h2>{store.sebOrder}</h2>
             <p>Sebastián</p>
         </div>
         <div className="employee-report">
-            <h2>12</h2>
+            <h2>{store.lauOrder}</h2>
             <p>Laura</p>
         </div>
         <div className="employee-report">
-            <h2>12</h2>
+            <h2>{store.isaOrder}</h2>
             <p>Isabella</p>
             </div>
             </div>
@@ -28,6 +28,6 @@ const InChargeOrderPanel = () => {
 
     );
   
-}
+})
 
 export default InChargeOrderPanel;

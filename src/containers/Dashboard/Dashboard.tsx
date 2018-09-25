@@ -6,6 +6,7 @@ import NewOrder from '../../components/NewOrder/NewOrder';
 import InChargeOrderPanel from '../../components/InChargeOrderPanel/InChargeOrderPanel';
 import Today from '../../components/Today/Today';
 import ResourcePanel from '../../components/ResourcePanel/ResourcePanel';
+import OrdersPanel from '../../components/OrdersPanel/OrdersPanel';
 
 class Dashboard extends React.Component  {
  render () {    
@@ -29,6 +30,7 @@ class Dashboard extends React.Component  {
     <div>
     <div  className="row-flex">
      <div  className="flex-child panel-w"><Today/></div>
+     <div className="flex-child panel-w"><OrdersPanel/></div>
      </div>
 
         </div>     

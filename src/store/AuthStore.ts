@@ -37,7 +37,8 @@ class AuthStore{
 
         let totalArray = userArray;
 
-        ((storedArray != null) ? totalArray = storedArray.concat(userArray) : totalArray = userArray);
+        ((storedArray != null) ? totalArray = storedArray.concat(userArray) 
+        : totalArray = userArray);
 
 
         localStorage.setItem('userArray', JSON.stringify(totalArray));
